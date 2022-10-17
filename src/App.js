@@ -22,7 +22,6 @@ function App() {
       <div className="container">
         <BrowserRouter>
           <Navbar />
-          <Menumobile />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/auth" element={<Login />} />

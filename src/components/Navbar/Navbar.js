@@ -2,7 +2,17 @@ import './Navbar.css';
 import Icon from '../../assets/image/menu.svg';
 import { Link } from 'react-router-dom';
 
+import { useState } from 'react';
+
+import Menumobile from '../Menumobile/Menumobile';
+
 const Navbar = () => {
+  const [menu, setMenu] = useState(false);
+
+  const handleIcon = (e) => {
+    setMenu(true);
+  };
+
   return (
     <nav>
       <div className="logo">
@@ -25,7 +35,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="menu-icon">
-        <img src={Icon} alt="Icon" />
+        <img onClick={handleIcon} src={Icon} alt="Icon" />
+        <Menumobile menu={menu} />
       </div>
       <div className="auth">
         <ul>

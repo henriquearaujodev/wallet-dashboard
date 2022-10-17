@@ -58,6 +58,7 @@ nav .auth ul a {
 .menu-icon {
   width: 2.5rem;
   display: none;
+  z-index: 15;
 }
 
 @media screen and (max-width: 1170px) {

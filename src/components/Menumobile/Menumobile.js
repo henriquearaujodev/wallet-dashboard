@@ -1,9 +1,11 @@
 import './Menumobile.css';
 
-const Menumobile = () => {
+const Menumobile = ({ menu }) => {
   return (
     <div>
-      <div className="menu-mobile">a</div>
+      <div className={menu ? 'menu-mobile menu-mobile-open' : 'menu-mobile'}>
+        a
+      </div>
     </div>
   );
 };
