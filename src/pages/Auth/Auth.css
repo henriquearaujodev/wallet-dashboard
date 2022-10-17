@@ -1,0 +1,147 @@
+.container-form {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: rebeccapurple; */
+}
+
+.form {
+  width: 40rem;
+  height: 54rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #eeecec;
+}
+
+.form .title {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form .title h1 {
+  font-size: 1.7rem;
+}
+
+.form .form-items {
+  /* background-color: bisque; */
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.form .form-items span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+  color: #505050;
+}
+
+.form .form-items input[type='text'] {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #dddcdc;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.5s ease-out;
+}
+
+.form .form-items input[type='text']:focus {
+  border: 1px solid #6270ea;
+}
+
+.form .form-items input[type='text']::placeholder {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.form-items .remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.5rem;
+}
+
+.form-items .remember-box {
+  display: flex;
+  /* align-items: center; */
+  gap: 0.2rem;
+}
+
+.remember .check {
+  width: 2rem;
+  margin-left: -0.3rem;
+}
+
+.remember .forgot a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  /* margin-right: -0rem; */
+  font-weight: 500;
+  color: #6270ea;
+}
+
+.remember .forgot a:hover {
+  color: #7884f0;
+  text-decoration: underline;
+}
+
+.form .btn {
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+  background-color: #6270ea;
+  border: 0;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.4s ease-out;
+  margin-top: 2rem;
+}
+
+.form .btn:hover {
+  background-color: #7884f0;
+}
+
+.form .register {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3rem;
+}
+
+.form .register p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #676666;
+}
+
+.form .register a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #6270ea;
+}

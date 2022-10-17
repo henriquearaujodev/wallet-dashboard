@@ -1,0 +1,27 @@
+.menu-mobile {
+  margin-top: -7rem;
+  width: 25rem;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+  opacity: 0;
+  /* display: none; */
+  position: absolute;
+  right: -30rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .menu-mobile {
+    /* opacity: 1;
+    right: 0; */
+  }
+
+  /* nav {
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  } */
+}
