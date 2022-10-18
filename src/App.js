@@ -14,7 +14,6 @@ import ChangePassword from './pages/Auth/ChangePassword';
 
 // React
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Menumobile from './components/Menumobile/Menumobile';
 
 function App() {
   return (

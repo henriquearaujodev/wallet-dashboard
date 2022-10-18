@@ -1,5 +1,6 @@
 import './Navbar.css';
-import Icon from '../../assets/image/menu.svg';
+import IconOpen from '../../assets/image/menu.svg';
+import IconClose from '../../assets/image/close.svg';
 import { Link } from 'react-router-dom';
 
 import { useState } from 'react';
@@ -10,7 +11,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   const handleIcon = (e) => {
-    setMenu(true);
+    !menu ? setMenu(true) : setMenu(false);
   };
 
   return (
@@ -35,7 +36,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="menu-icon">
-        <img onClick={handleIcon} src={Icon} alt="Icon" />
+        <img
+          onClick={handleIcon}
+          src={!menu ? IconOpen : IconClose}
+          alt="Icon"
+        />
         <Menumobile menu={menu} />
       </div>
       <div className="auth">

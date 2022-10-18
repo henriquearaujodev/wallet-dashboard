@@ -1,20 +1,70 @@
 .menu-mobile {
-  margin-top: -7rem;
-  width: 25rem;
+  margin-top: -5rem;
+  width: 20rem;
   height: 100vh;
-  padding: 1rem;
+  padding-top: 8rem;
   background-color: #fff;
   opacity: 0;
-  /* display: none; */
   position: absolute;
   right: -30rem;
   transition: all 0.4s ease-in-out;
   z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu-mobile-open {
   opacity: 1;
   right: 0;
+}
+
+.menu-mobile-items ul {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-mobile-items li {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #505050;
+}
+
+.menu-mobile-action ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.menu-mobile-action a,
+.menu-mobile-items a,
+.menu-mobile-action a:visited {
+  text-decoration: none;
+  color: #505050;
+}
+
+.menu-mobile-action li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #505050;
+}
+
+.menu-mobile-action .btn {
+  background-color: #6270ea;
+  border-radius: 0.5rem;
+}
+
+.menu-mobile-action .btn a {
+  color: #fff;
 }
 
 @media screen and (max-width: 500px) {
