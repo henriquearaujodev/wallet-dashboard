@@ -58,6 +58,7 @@ nav .auth ul a {
 .menu-icon {
   width: 2.5rem;
   display: none;
+  cursor: pointer;
   z-index: 15;
 }
 

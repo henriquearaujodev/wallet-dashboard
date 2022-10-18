@@ -39,7 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .menu-mobile-action a,
@@ -52,20 +52,25 @@
 .menu-mobile-action li {
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: #505050;
 }
 
 .menu-mobile-action .btn {
-  background-color: #6270ea;
-  border-radius: 0.5rem;
-  padding: 1.4rem 2rem;
 }
 
 .menu-mobile-action .btn a {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
   color: #fff;
+  background-color: #6270ea;
+  transition: all 0.4s ease-out;
+}
+
+.menu-mobile-action .btn a:hover {
+  background-color: #7884f0;
 }
 
 @media screen and (max-width: 500px) {
