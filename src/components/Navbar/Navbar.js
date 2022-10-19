@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container">
+    <div className="nav-full">
       <nav>
         <div className="logo">
           <Link to="/">WALLET</Link>
