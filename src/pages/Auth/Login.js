@@ -23,10 +23,10 @@ const Login = () => {
             <div className="remember">
               <div className="remember-box">
                 <div>
-                  <input className="check" type="checkbox" id="" />
+                  <input className="check" type="checkbox" id="check" />
                 </div>
                 <div>
-                  <label>
+                  <label htmlFor="check">
                     <span>Lembrar minha senha</span>
                   </label>
                 </div>
@@ -49,7 +49,7 @@ const Login = () => {
             <p>Ainda não é cadastrado?</p>
           </div>
           <div>
-            <Link to="/register">Cadastra-se agora!</Link>
+            <Link to="/register">Cadastre-se agora!</Link>
           </div>
         </div>
       </div>

@@ -65,7 +65,7 @@ nav .auth ul a {
   width: 2.5rem;
   display: none;
   cursor: pointer;
-  z-index: 15;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1170px) {
@@ -86,7 +86,6 @@ nav .auth ul a {
   }
   nav .menu-icon {
     display: block;
-    margin-right: 2rem;
   }
   nav .menu {
     display: none;
@@ -126,5 +125,11 @@ nav .auth ul a {
 @media screen and (max-width: 420px) {
   nav .menu {
     display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  nav {
+    width: 35rem;
   }
 }

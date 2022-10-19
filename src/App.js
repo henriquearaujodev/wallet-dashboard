@@ -15,6 +15,9 @@ import ChangePassword from './pages/Auth/ChangePassword';
 // React
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+// Title site
+window.document.title = 'Wallet';
+
 function App() {
   return (
     <div className="App">

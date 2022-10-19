@@ -58,9 +58,6 @@
   color: #505050;
 }
 
-.menu-mobile-action .btn {
-}
-
 .menu-mobile-action .btn a {
   padding: 1rem 2rem;
   border-radius: 0.5rem;
@@ -71,18 +68,4 @@
 
 .menu-mobile-action .btn a:hover {
   background-color: #7884f0;
-}
-
-@media screen and (max-width: 500px) {
-  .menu-mobile {
-    /* opacity: 1;
-    right: 0; */
-  }
-
-  /* nav {
-    width: 70rem;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-  } */
 }
