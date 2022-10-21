@@ -44,13 +44,13 @@ const SidebarLeft = () => {
           <div className="icon">
             <img className="icon-menu" src={sidebarIconSeting} alt="" />
           </div>
-          <div className="menu">Dashboard</div>
+          <div className="menu">Configurações</div>
         </div>
         <div className="sidebar-left-items">
           <div className="icon">
             <img className="icon-menu" src={sidebarIconExit} alt="" />
           </div>
-          <div className="menu">Dashboard</div>
+          <div className="menu">Sair</div>
         </div>
       </div>
     </div>
