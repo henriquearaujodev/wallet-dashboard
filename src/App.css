@@ -1,6 +1,7 @@
 .App {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   position: relative;
 }
@@ -8,6 +9,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container {
+  display: flex;
+  width: 120rem;
+  /* padding: 2rem 5rem; */
+  background-color: orange;
 }
 
 @media (prefers-reduced-motion: no-preference) {

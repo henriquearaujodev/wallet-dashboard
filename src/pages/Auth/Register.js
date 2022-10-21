@@ -34,11 +34,6 @@ const Register = () => {
             <button className="btn">Registrar</button>
           </form>
         </div>
-        {/* <div className="action">
-          <div className="btn">
-            <Link to="/">Entrar</Link>
-          </div>
-        </div> */}
         <div className="register">
           <div>
             <p>Já é cadastrado?</p>

@@ -1,6 +1,6 @@
 nav {
   width: 120rem;
-  padding: 2rem;
+  padding: 2rem 0rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,7 +85,7 @@ nav .auth ul a {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 810px) {
   nav .auth {
     display: none;
   }
@@ -104,9 +104,24 @@ nav .auth ul a {
   }
 }
 
+@media screen and (max-width: 730px) {
+  nav {
+    width: 65rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
 @media screen and (max-width: 669px) {
   nav {
     width: 60rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  nav {
+    width: 55rem;
   }
 }
 
@@ -116,9 +131,15 @@ nav .auth ul a {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   nav {
     width: 45rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    width: 43rem;
   }
 }
 
@@ -131,10 +152,13 @@ nav .auth ul a {
   nav .menu {
     display: none;
   }
+  nav {
+    width: 38rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
   nav {
-    width: 35rem;
+    width: 32rem;
   }
 }
