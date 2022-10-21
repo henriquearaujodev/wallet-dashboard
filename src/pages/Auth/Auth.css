@@ -56,14 +56,14 @@
   font-weight: 500;
   padding: 1rem;
   margin-bottom: 1.3rem;
-  border: 1px solid #dddcdc;
+  border: 2px solid #ebebeb;
   border-radius: 0.5rem;
   outline: none;
   transition: all 0.5s ease-out;
 }
 
 .form .form-items input[type='text']:focus {
-  border: 1px solid #6270ea;
+  border: 2px solid #6270ea;
 }
 
 .form .form-items input[type='text']::placeholder {
