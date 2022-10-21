@@ -1,0 +1,6 @@
+.sidebar-right {
+  width: 40rem;
+  padding: 2rem;
+  height: calc(100vh - 7.5vh);
+  background-color: olive;
+}

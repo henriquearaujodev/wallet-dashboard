@@ -3,9 +3,6 @@ import './App.css';
 
 // Components
 import Navbar from './components/Navbar/Navbar';
-import SidebarLeft from './components/SidebarLeft/SidebarLeft';
-import SidebarRight from './components/SidebarRight/SidebarRight';
-import Main from './components/main/Main';
 
 // Pages
 import Home from './pages/Home/Home';
@@ -16,6 +13,7 @@ import ChangePassword from './pages/Auth/ChangePassword';
 
 // React
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 // Title site
 window.document.title = 'Wallet';
@@ -32,19 +30,9 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/recover" element={<Recover />} />
             <Route path="/changepassword" element={<ChangePassword />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </BrowserRouter>
-      </div>
-      <div className="container">
-        <div className="sidebar-left">
-          <SidebarLeft />
-        </div>
-        <div className="main">
-          <Main />
-        </div>
-        <div className="sidebar-right">
-          <SidebarRight />
-        </div>
       </div>
     </div>
   );

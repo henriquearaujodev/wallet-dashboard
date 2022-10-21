@@ -11,13 +11,6 @@
   pointer-events: none;
 }
 
-.container {
-  display: flex;
-  width: 120rem;
-  /* padding: 2rem 5rem; */
-  background-color: orange;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

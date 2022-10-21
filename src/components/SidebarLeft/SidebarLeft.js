@@ -1,7 +1,7 @@
 import './SidebarLeft.css';
 
 const SidebarLeft = () => {
-  return <div>SidebarLeft components</div>;
+  return <div className="sidebar-left">sidebar left out</div>;
 };
 
 export default SidebarLeft;
