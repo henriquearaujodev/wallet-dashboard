@@ -16,10 +16,6 @@ const Register = () => {
               <input type="text" placeholder="Digite seu nome" />
             </label>
             <label>
-              <span>Sobrenome</span>
-              <input type="text" placeholder="Digite seu sobrenome" />
-            </label>
-            <label>
               <span>E-mail</span>
               <input type="text" placeholder="Digite eu e-mail" />
             </label>
@@ -43,6 +39,14 @@ const Register = () => {
             <Link to="/">Entrar</Link>
           </div>
         </div> */}
+        <div className="register">
+          <div>
+            <p>Já é cadastrado?</p>
+          </div>
+          <div>
+            <Link to="/auth">Faça o login agora!</Link>
+          </div>
+        </div>
       </div>
     </div>
   );
