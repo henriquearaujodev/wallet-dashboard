@@ -37,8 +37,13 @@ nav .menu ul a:hover {
   color: #000;
 }
 
+nav .menu {
+  display: flex;
+  gap: 8rem;
+}
+
 nav .auth ul {
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 nav .auth ul a {

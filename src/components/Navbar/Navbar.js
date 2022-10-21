@@ -20,22 +20,6 @@ const Navbar = () => {
         <div className="logo">
           <Link to="/">WALLET</Link>
         </div>
-        <div className="menu">
-          <ul>
-            <li>
-              <Link to="/auth">Home</Link>
-            </li>
-            <li>
-              <Link to="/auth">Pricing</Link>
-            </li>
-            <li>
-              <Link to="/auth">Services</Link>
-            </li>
-            <li>
-              <Link to="/auth">Contact</Link>
-            </li>
-          </ul>
-        </div>
 
         <div className="menu-icon">
           <img
@@ -45,17 +29,35 @@ const Navbar = () => {
           />
           <Menumobile menu={menu} />
         </div>
-        <div className="auth">
-          <ul>
-            <li>
-              <Link to="/auth">Login</Link>
-            </li>
-            <li>
-              <Link className="nav-register" to="/register">
-                Register
-              </Link>
-            </li>
-          </ul>
+        <div className="menu">
+          <div>
+            <ul>
+              <li>
+                <Link to="/auth">Home</Link>
+              </li>
+              <li>
+                <Link to="/auth">Pricing</Link>
+              </li>
+              <li>
+                <Link to="/auth">Services</Link>
+              </li>
+              <li>
+                <Link to="/auth">Contact</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="auth">
+            <ul>
+              <li>
+                <Link to="/auth">Login</Link>
+              </li>
+              <li>
+                <Link className="nav-register" to="/register">
+                  Register
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
