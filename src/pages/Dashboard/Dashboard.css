@@ -1,7 +1,6 @@
 .container {
   width: 100vw;
   /* padding: 2rem 0rem; */
-  background-color: orange;
   display: flex;
   justify-content: center;
   align-items: center;
