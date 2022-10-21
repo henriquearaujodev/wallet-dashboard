@@ -17,7 +17,7 @@ const Register = () => {
             </label>
             <label>
               <span>E-mail</span>
-              <input type="text" placeholder="Digite eu e-mail" />
+              <input type="text" placeholder="Digite seu e-mail" />
             </label>
             <label>
               <span>Senha</span>
