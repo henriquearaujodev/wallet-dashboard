@@ -6,6 +6,8 @@ import sidebarIconHelp from '../../assets/image/help.svg';
 import sidebarIconSeting from '../../assets/image/seting.svg';
 import sidebarIconExit from '../../assets/image/exit.svg';
 
+import { Link } from 'react-router-dom';
+
 const SidebarLeft = () => {
   return (
     <div className="sidebar-left">
@@ -38,7 +40,19 @@ const SidebarLeft = () => {
           <div className="menu">Ajuda</div>
         </div>
       </div>
-      <div className="sidebar-left-premium">PREMIUM</div>
+      <div className="sidebar-left-premium">
+        <div className="title">
+          <h1>WALLET PRO</h1>
+        </div>
+        <div className="info">
+          <p>Tenha acesso a todos os recursos da sua carteira.</p>
+        </div>
+        <div className="action">
+          <div className="btn">
+            <Link to="#">Comprar PRO agora!</Link>
+          </div>
+        </div>
+      </div>
       <div className="sidebar-left-config">
         <div className="sidebar-left-items">
           <div className="icon">
